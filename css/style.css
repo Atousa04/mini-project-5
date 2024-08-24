@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Byekan';
+    src: url('../fonts/BYekan.ttf') format('truetype') ,
+    url('../fonts/BYekan.woff') format('woff') ,
+    url('../fonts/BYekan.woff2') format('woff2') ,
+    url('../fonts/BYekan.eot') format('embeddedopentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(107, 137, 236);
+    font-family: "Byekan";
+    color: black;
+}
+
+.container {
+    width: 600px;
+    height: 360px;
+    margin: 150px auto;
+    box-shadow: 0 0 40px rgba(40, 40, 40);
+    border-radius: 10px 25px;
+    position: relative;
+}
+
+.card {
+    width: 220px;
+    height: 360px;
+    box-shadow: 0 0 40px rgb(40, 40, 40);
+    border-radius: 10px 25px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.bio {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    text-align: justify;
+}
+
+.email {
+    font-size: 13px;
+}
+
+.email span {
+    font-size: 16px;
+}
+
+.card p {
+    padding-right: 13px;
+    margin: 2px;
+}
